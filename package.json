@@ -1,0 +1,25 @@
+{
+  "name": "rd2gws84",
+  "version": "1.0.0",
+  "description": "Conversion of Rijksdriehoek coordinates to GPS coordinates",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "min": "minimize-js dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arjendeblok/rd2wgs84.git"
+  },
+  "author": "Arjen de Blok",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arjendeblok/rd2wgs84/issues"
+  },
+  "homepage": "https://github.com/arjendeblok/rd2wgs84#readme",
+  "dependencies": {
+    "minimize-js": "^1.3.0",
+    "typescript": "^4.9.3"
+  }
+}
