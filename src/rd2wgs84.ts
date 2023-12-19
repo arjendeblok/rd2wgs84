@@ -39,5 +39,10 @@ function rd2WGS84(rd: rds): wgs84 {
         ) / 3600)
     );
 
-    return { lat, lon };
-  };
+    return { 
+        lat: Math.round(lat*1e+6)/1e+6,
+        lon: Math.round(lon*1e+6)/1e+6
+    };
+};
+
+export { rd2WGS84 }
